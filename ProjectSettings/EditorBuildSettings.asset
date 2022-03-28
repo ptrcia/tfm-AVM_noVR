@@ -27,8 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/6-escalera.unity
     guid: 8a99d0bfab09ad4439f8736a15154d23
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
-      type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 0}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba,
       type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
