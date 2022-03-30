@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public string Url;
     void Update()
     {
         if (Input.GetKey("escape"))
@@ -74,5 +75,9 @@ public class MenuManager : MonoBehaviour
     {
         Debug.Log("Quit");
         Application.Quit();
+    }
+    public void UrlOpen()
+    {
+        Application.OpenURL(Url);
     }
 }

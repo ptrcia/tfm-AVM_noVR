@@ -31860,6 +31860,7 @@ GameObject:
   - component: {fileID: 807656257}
   - component: {fileID: 807656256}
   - component: {fileID: 807656255}
+  - component: {fileID: 807656261}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -32002,6 +32003,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807656253}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &807656261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807656253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f47129c7a6e6a40b0cdad3e435fe30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Url: 
 --- !u!1001 &808286441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37023,7 +37037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2155ecb55dfc541b32a932cd361f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 80
   playerBody: {fileID: 807656254}
 --- !u!81 &912491435
 AudioListener:
